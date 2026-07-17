@@ -1,0 +1,21 @@
+# Node dependencies (Frontend & Backend)
+**/node_modules/
+**/npm-debug.log
+
+# Python/Flask environment (if any local virtual envs are in backend)
+**/venv/
+**/.venv/
+__pycache__/
+*.pyc
+
+# Local Environment / Secrets
+.env
+**/.env.local
+
+# Kubernetes / Local Cluster artifacts
+**/.kube/
+**/kubeconfig
+
+# Operating System files
+.DS_Store
+Thumbs.db
