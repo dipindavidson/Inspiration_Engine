@@ -21,4 +21,12 @@ C:\Inspiration_Engine\
 ├── backend/          # Node.js engine integrating Gemini SDK & Dockerfile
 ├── frontend/         # Static client application & optimization Dockerfile
 └── k8s/eks           # Target EKS infrastructure deployment & service manifests
+```
 
+## Future Roadmap
+
+While the current architecture demonstrates core decoupled microservices and Kubernetes orchestration, it serves as a foundation for more advanced cloud-native patterns. Upcoming updates will introduce:
+
+- **Helm Charts Migration:** Package the existing Kubernetes manifests into a unified Helm chart to make deployments modular and template-driven.
+- **Observability Stack:** Deploy Prometheus and Grafana into the cluster to track API response times, container resource usage, and error rates.
+- **Ingress Controller Setup:** Configure an NGINX Ingress Controller to manage external routing cleanly rather than relying on direct port-forwarding or individual load balancers.
